@@ -1,1 +1,13 @@
 /* OWNER */
+
+  Joah Gerstenberg
+  GitHub Profile: https://github.com/JoahG
+  Location: Texas
+  Website: www.joahg.com
+
+/* CONTRIBUTORS */
+
+  Joah Gerstenberg
+  GitHub Profile: https://github.com/JoahG
+  Location: Texas
+  Website: www.joahg.com

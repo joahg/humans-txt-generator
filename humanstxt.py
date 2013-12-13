@@ -52,7 +52,7 @@ with open('humans.txt', 'wb') as f:
 	print "\nOwner of "+repo+":"
 	f.write('/* OWNER */\n')
 	printUser(o["owner"]["url"], f)
-	print "\nContributors to "+repo+" \n(more info will be written to output.txt):"
+	print "\nContributors to "+repo+" \n(more info will be written to humans.txt):"
 	f.write('\n/* CONTRIBUTORS */\n')
 	for i in d:
-		printUser(i["url"], f):
+		printUser(i["url"], f)
