@@ -1,5 +1,6 @@
 import json
 import requests
+import re
 
 def authURL(url):
 	if len(auth.strip()) > 0:
@@ -36,6 +37,10 @@ def printUser(url, fil):
 	return True
 
 repo = raw_input("Repository Name (username/repoName): ")
+
+while not re.match("^(\w|-)+/(\w|-)+$", repo):
+	repo = raw_input("Invalid Repository Name format.\nPlease try again with the form username/repoName.\nRepository Name: ")
+
 auth = raw_input("Create a Personal Access Token at https://github.com/settings/tokens/new \nPaste it here: ")
 
 while len(auth.strip()) == 0:
